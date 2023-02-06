@@ -84,6 +84,42 @@ man rm
 
 man 指令给出对应 order 的manual
 
-```
+```bash
+< file 
+> file #重写
+>> file #追加
 ```
 
+可以分别重定向输入和输出
+
+```bash
+cat file
+```
+
+打印文件内容
+
+```bash
+order1 | order2
+```
+
+管道（pipe）将第一个程序的输出作为第二个程序的输入
+
+```bash
+sudo order
+sudo su #以 root 登陆shell
+exit #退出 root 用户
+```
+
+do as su(super user)，以 root 用户的身份执行命令
+
+```bash
+tee file
+```
+
+输出输入流中的内容到输出流和文件中
+
+```bash
+open file
+```
+
+用合适的软件打开文件
